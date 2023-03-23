@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	font-size:15px;
+	font-family:"Plus Jakarta Sans";
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6,
+.schedule-item .sc-info h3{
+	font-weight:800;
+}
+
+h1,h2,h3,h4,h5,h6,
+.big-white,
+.ultra-big-white,
+.de_tab.tab_steps .de_nav li span,
+.teaser-text,
+.text-slider,
+#mainmenu,
+.btn,
+a.btn,
+.btn-line,
+a.btn-line,
+#filters,
+.ultra-big-white,
+.wm,
+blockquote.testimonial-big.s2 .title,
+.tp-title,
+.countdown-amount,
+.countdown-period,
+.de_count h3,
+.ultra-big-2,
+.tp-caption,
+.pricing-s1.light .top .price b,
+blockquote.testimonial-big .title,
+#mo-menu{
+font-family: 'Plus Jakarta Sans',Arial, Helvetica, sans-serif;
+}
+
+
+#mo-menu > li{
+	font-weight:bold;
+}
+
+h1,h2,h3,h4,h5,h6,
+.de_tab.tab_steps .de_nav li span
+{
+letter-spacing:0;
+text-transform:none;
+}
+
+#subheader h1{
+	letter-spacing:0;
+	text-transform:none;
+}
+
+.blog-list h3, .blog-read h3{
+font-size:22px;
+}
+
+.big-white{
+	font-size:13px;
+}
+
+.ultra-big-white{
+	letter-spacing:0;
+	text-transform:none;
+	font-weight:600;
+	font-size:72px;
+}
+
+.text-slider{
+font-size:60px;
+letter-spacing:5px;
+}
+
+.big-custom-1{
+	font-family:"Red Hat Display";
+	font-size:60px;
+	letter-spacing:0;
+	font-weight:bold;
+	line-height:1.1em;
+	letter-spacing:-1px;
+}
+
+.small-white{
+	font-size:18px;
+	font-weight:400;
+}
+
+blockquote.testimonial-big{
+	font-size:22px;
+	font-style:none;
+	line-height:1.8em;
+}
+
+
+/* 개인정보처리방침 CSS */
+.privacyBtn { cursor: pointer; color:#000;font-weight: 200; font-size: 13px; margin-top: -10px}
+.privacyBtn:hover {color:#284E80;font-weight: 300; font-size: 13px; margin-top: -10px}
+
+#privacy {  position: fixed; width: 100%; height: 100%; left: 0; bottom: 0; z-index: 80; background-color: rgba(0, 0, 0, 0.6); visibility: hidden;     transform: translate(0, -50%);
+}
+#privacy > #privacyContent { position: absolute; width: 60%; height: 500px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); margin-left:20%;  top: 50%; margin-top: -250px;  }
+#privacyContent > div { width: 100%; float: left; }
+
+#privacyContent > .titWrap { height: 45px; line-height: 45px; background-color: #F8F8F8; padding: 0 15px; color: #000; position: relative; display: flex; align-items: center; justify-content: space-between;}
+
+#privacyContent > .titWrap > .closeBtn { cursor: pointer;}
+
+#privacyContent > .titWrap > span { width: calc(100% - 35px); float: left; font-size: 15px; font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#privacyContent > .titWrap > i { font-size: 21px; position: absolute; cursor: pointer; right: 15px; top: 50%; margin-top: -10px !important; }
+
+#privacyContent > .conWrap { height: calc(100% - 45px); padding: 15px; background-color: #FFF; color: #000; overflow-y: auto; font-size: 13px; letter-spacing: -0.5px; }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#privacy.blur {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
