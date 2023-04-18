@@ -70,6 +70,80 @@ testbody.innerHTML =`
     </div>
 </header>
 <!-- header close -->
+<section id="section-speakers" class="jarallax text-light" style="background: rgb(40, 36, 36);">
+<!-- <img src="images/bg/1.jpg" class="jarallax-img" alt=""> -->
+<div class="wm wm-border dark wow fadeInDown">speakers</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+            <h1>실제 합격 후기</h1>
+            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+            <div class="spacer-single"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+      
+       <div class="col-lg-12 col-md-12">
+            <!-- team member -->
+            <div class="de-team-list">
+                <div class="team-pic">
+                    <p>7개월만에 방송통신직 9급 합격 후기</p>
+                    <div id="video_size" >
+                    <iframe  id="video" src="https://www.youtube.com/embed/Rbe6_M4H4tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                <!-- <div class="team-desc">
+                    <h3>John Smith</h3>
+                    <p class="lead">Expert Designer</p>
+                    <div class="small-border"></div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-skype fa-lg"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- team close -->
+        </div>
+
+
+
+
+    </div>
+</div>
+</section>
+
+<section id="section-about"  style="background:#000">
+<div class="wm wm-border light wow fadeInDown" style="-webkit-text-stroke-color: rgba(255,255,255,.2);" >Gift</div>
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-12 wow fadeInLeft" data-wow-delay="0s">
+                <h2 style="color:#fff">단기 합격을 위한 모든 노하우를 담은<br>입문서 & 마스터북을 무료로 드립니다.</h2>
+                <p>
+                   2023년 최신 트렌드와 합격 노하우를 녹여낸 예상 문제를 받아가세요.
+                </p>
+                
+                <div class="spacer10"></div>
+                
+                
+            </div>
+            
+            <div class="col-12 text-center wow fadeInRight">
+                <div class="de-images">
+                    
+                    <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/books.png" alt="" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
 
 <img src="./images/bg.jpeg" style="width:100%;">
 <!-- section begin -->
@@ -109,51 +183,7 @@ testbody.innerHTML =`
     </section>
     <!-- section close -->
    
-    <section id="section-speakers" class="jarallax text-light" style="background: rgb(40, 36, 36);">
-        <!-- <img src="images/bg/1.jpg" class="jarallax-img" alt=""> -->
-        <div class="wm wm-border dark wow fadeInDown">speakers</div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
-                    <h1>실제 합격 후기</h1>
-                    <div class="separator"><span><i class="fa fa-square"></i></span></div>
-                    <div class="spacer-single"></div>
-                </div>
-                
-                <div class="clearfix"></div>
-              
-               <div class="col-lg-12 col-md-12">
-                    <!-- team member -->
-                    <div class="de-team-list">
-                        <div class="team-pic">
-                            <p>7개월만에 방송통신직 9급 합격 후기</p>
-                            <div id="video_size" >
-                            <iframe  id="video" src="https://www.youtube.com/embed/Rbe6_M4H4tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            </div>
-                        <!-- <div class="team-desc">
-                            <h3>John Smith</h3>
-                            <p class="lead">Expert Designer</p>
-                            <div class="small-border"></div>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-
-                            <div class="social">
-                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                            </div>
-                        </div> -->
-                    </div>
-                    <!-- team close -->
-                </div>
-        
-
-
-
-            </div>
-        </div>
-    </section>
+ 
     
    
 
@@ -327,41 +357,17 @@ testbody.innerHTML =`
             </div>
         </div>
     </section>
-    <section id="section-about"  style="background:#000">
-        <div class="wm wm-border light wow fadeInDown" style="-webkit-text-stroke-color: rgba(255,255,255,.2);" >Gift</div>
-            <div class="container">
-                <div class="row align-items-center">
-                    
-                    <div class="col-12 wow fadeInLeft" data-wow-delay="0s">
-                        <h2 style="color:#fff">빠른 합격의 노하우를<br>무료로 선물해드립니다.</h2>
-                        <p>
-                           2023년 최신 트렌드와 합격 노하우를 녹여낸 예상 문제를 받아가세요.
-                        </p>
-                        
-                        <div class="spacer10"></div>
-                        
-                        
-                    </div>
-                    
-                    <div class="col-12 text-center wow fadeInRight">
-                        <div class="de-images">
-                            
-                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/gicho-books.png" alt="" />
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+   
         <div style="text-align:center;background:#fff;">
     <img class="wow fadeInDown" src="./images/gicho.jpg" style="width:100%;max-width:900px;"><br>
     <img class="wow fadeInUp" src="./images/master-books.png" style="width:100%;max-width:900px;"><br>
     <img class="wow fadeInDown" src="./images/master.jpg" style="width:100%;max-width:900px;"><br>
+  
 </div>
 
 
     <!-- section begin -->
-    <section id="section-ticket" class="jarallax text-light">
+ <section id="section-ticket" class="jarallax text-light">
         <img src="images/bg/2.jpg" class="jarallax-img" alt="">
         <div class="wm wm-border dark wow fadeInDown">tickets</div>
         <div class="container">
@@ -373,22 +379,15 @@ testbody.innerHTML =`
                         <div class="top">
                             <h2>공무원 빠른 합격을 위한<br>에듀피디만의 혜택</h2>
                         </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><i class="icon_check_alt2"></i>합격 시 합격축하금</li>
-                                <li><i class="icon_check_alt2"></i>모바일 강좌 즉시이용</li>
-                                <li><i class="icon_check_alt2"></i>최신강좌 업데이트 무료</li>
-                                <li><i class="icon_check_alt2"></i>학습진도/성적관리/자기학습 가능</li>
-                                
-                            </ul>
-                          
-                        </div>
+                       
                         <div class="ps1-deco"></div>
                     </div>
                 </div>
             
             </div>
+            <img class="wow fadeInDown" src="./images/event.png" style="width:100%;">
         </div>
+    
     </section>
     <!-- section close -->
 
