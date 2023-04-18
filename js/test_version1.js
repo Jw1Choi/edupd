@@ -2,6 +2,8 @@ const testbody = document.getElementById('test_body');
 testbody.innerHTML =` 
 <div id="wrapper">
 
+
+
 <!-- header begin -->
 <header class="transparent">
     <div class="info">
@@ -69,7 +71,7 @@ testbody.innerHTML =`
 </header>
 <!-- header close -->
 
-
+<img src="./images/bg.jpeg" style="width:100%;">
 <!-- section begin -->
     <section id="section-hero" class="jarallax text-light" style="background:rgb(4, 55, 194)">
         <!-- <img src="images/bg/9.jpg" class="jarallax-img" alt=""> -->
@@ -101,10 +103,12 @@ testbody.innerHTML =`
                 
                 </div>
             </div>
+      
         </div>
+
     </section>
     <!-- section close -->
-    
+   
     <section id="section-speakers" class="jarallax text-light" style="background: rgb(40, 36, 36);">
         <!-- <img src="images/bg/1.jpg" class="jarallax-img" alt=""> -->
         <div class="wm wm-border dark wow fadeInDown">speakers</div>
@@ -123,8 +127,10 @@ testbody.innerHTML =`
                     <div class="de-team-list">
                         <div class="team-pic">
                             <p>7개월만에 방송통신직 9급 합격 후기</p>
-                            <iframe width="260" height="215" src="https://www.youtube.com/embed/Rbe6_M4H4tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
+                            <div id="video_size" >
+                            <iframe  id="video" src="https://www.youtube.com/embed/Rbe6_M4H4tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            </div>
                         <!-- <div class="team-desc">
                             <h3>John Smith</h3>
                             <p class="lead">Expert Designer</p>
@@ -535,7 +541,86 @@ testbody.innerHTML =`
     </section>
     <!-- section close -->
     
-
+    <form accept-charset="euc-kr"  checkform action="https://marketclub.cafe24.com/pr_test2.php" method="post" name="fm" onsubmit="document.charset='euc-kr';" target="_self" style="display:none;">
+    <input type="hidden" name="partner_id" value="flosmarketing">
+    <INPUT type=hidden name=item_no value="444">
+    <input type="hidden" name="refe" value=" ">
+    <input type="hidden" name="mcheck" value=" ">
+    <input type="hidden" name="ru" value=""><!-- 마케터수동입력 -->
+    
+                <div class="cms-item-row">
+                    <div class="cms-width-48pro">
+                        <input type="text" name="user_name" maxlength="5" required="required" placeholder="이름" class="cms-input-text cms-input-color0">
+                    </div>
+                    <div class="cms-width-4pro">&nbsp;</div>
+                    <div class="cms-width-48pro">
+                        <input type="text" name="나이" maxlength="2" required="required" placeholder="나이" class="cms-input-text cms-input-color0">
+                    </div>
+                    <div class="cms-clear-both"></div>
+              </div>
+    
+                <div class="cms-item-row cms-margin-top-10">
+                    <div class="cms-width-30pro">
+              <select name="휴대폰번호1" required="required" placeholder="연락처" class="cms-input-text cms-input-color0">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+                <option value="019">019</option>
+              </select>
+            </div>
+                    <div class="cms-width-5pro">-</div>
+                    <div class="cms-width-30pro">
+                        <input type="tel" name="휴대폰번호2" maxlength="4" required="required" placeholder="연락처" class="cms-input-text cms-input-color0">
+                    </div>
+                    <div class="cms-width-5pro">-</div>
+                    <div class="cms-width-30pro">
+                        <input type="tel" name="휴대폰번호3" maxlength="4" required="required" placeholder="연락처" class="cms-input-text cms-input-color0">
+                    </div>
+                    <div class="cms-clear-both"></div>
+              </div>
+    
+                <div class="cms-item-row cms-margin-top-10">
+            <select name="통화가능시간" required="required" class="cms-input-text cms-input-color0">
+              <option value="">통화가능시간 선택</option>
+              <option value="언제나 통화 가능">언제나 통화 가능</option>
+              <option value="오전 09:00~10:00">오전 09:00 ~ 10:00</option>
+              <option value="오전 10:00~11:00">오전 10:00 ~ 11:00</option>
+              <option value="오전 11:00~12:00">오전 11:00 ~ 12:00</option>
+              <option value="점심 12:00~01:00">점심 12:00 ~ 01:00</option>
+              <option value="오후 01:00~02:00">오후 01:00 ~ 02:00</option>
+              <option value="오후 02:00~03:00">오후 02:00 ~ 03:00</option>
+              <option value="오후 03:00~04:00">오후 03:00 ~ 04:00</option>
+              <option value="오후 04:00~05:00">오후 04:00 ~ 05:00</option>
+              <option value="오후 05:00~06:00">오후 05:00 ~ 06:00</option>
+              <option value="오후 06:00~07:00">오후 06:00 ~ 07:00</option>
+            </select>
+                </div>
+        
+                <div class="cms-item-row cms-margin-top-10">
+                    <input type="text" name="문의사항" maxlength="100" placeholder="문의사항" class="cms-input-text cms-input-color0">
+                </div>
+    
+        
+          <div class="cms-item-row cms-margin-top-10">
+            <ul>
+              <li class="cms-radio-li cms-radio-color0">
+                <input type="checkbox" required="required" id="" checked><label for=""> 개인정보 수집·이용 동의</label>
+                <a href="/01.html" target="_blank" class="Color-Box">[보기]</a>
+              </li>
+            </ul>
+                    <div class="cms-clear-both"></div>
+          </div>
+    
+          <div class="cms-button cms-btn-color0 cms-margin-top-10">
+                                <button ><span ><b>무료상담신청하기</b></span></button>
+                </div>
+    
+                <input type=hidden name="refe" id="refe" value="/insert_form0.php?it=444&pt=flosmarketing"> 
+                <input type=hidden name="refer_url" value="">
+    
+        </form>
     
 
 
