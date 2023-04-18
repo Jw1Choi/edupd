@@ -3728,6 +3728,7 @@ border:solid 1px #ddd;
 	margin: 1px;
 	/*border-right: solid 1px #333;*/
 }
+
 .de_tab.tab_style_4 .de_nav li span {
 	margin: 0;
 	padding: 0;
@@ -7644,7 +7645,40 @@ display:table;
 	.countdown-s1 .countdown-show4 .countdown-section {
 		width: 18vw;
 	}
+}
 	
+	#video_size{
+		position:relative;
+
+		height:600px;
+	}
+
+	@media screen and (max-width:992px) {
+		#video_size{
+	
+			height:350px;
+		}	
+	}
+
+	@media screen and (max-width:680px) {
+		#video_size{
+	
+			height:250px;
+		}	
+	}
+
+	@media screen and (max-width:420px) {
+		#video_size{
+	
+			height:200px;
+		}	
+	}
+
+	#video{
+		position:absolute;
+		width:100%;
+		height:100%;
+	}
 	
 	/* -------------------------------------------------- 
 	design for 480px
@@ -7677,4 +7711,6 @@ display:table;
 	.grid-item .pf_title{
 		display:none;
 	}
+
+
 	}
